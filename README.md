@@ -74,7 +74,7 @@ The Firebase config is stored securely using environment variables in the `.env`
 ## Contact
 
 Developed by Mohd Zaryab  
-Email: your.email@example.com  
+Email: zaryabansari98@gmail.com
 Phone: +91 9889544077  
 
 ---
