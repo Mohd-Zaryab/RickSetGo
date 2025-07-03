@@ -6,13 +6,23 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
+// 🔒 Import from .env
+import {
+  FIREBASE_API_KEY,
+  FIREBASE_AUTH_DOMAIN,
+  FIREBASE_PROJECT_ID,
+  FIREBASE_STORAGE_BUCKET,
+  FIREBASE_MESSAGING_SENDER_ID,
+  FIREBASE_APP_ID,
+} from '@env';
+
 const firebaseConfig = {
-  apiKey: "AIzaSyCXa00l7mpBYlr3Lt-wQxr7nM0KPKjhRvo",
-  authDomain: "urbansetgo-1d95c.firebaseapp.com",
-  projectId: "urbansetgo-1d95c",
-  storageBucket: "urbansetgo-1d95c.appspot.com",
-  messagingSenderId: "197692278958",
-  appId: "1:197692278958:web:7eb102671b6f2d4b4a053f"
+  apiKey: FIREBASE_API_KEY,
+  authDomain: FIREBASE_AUTH_DOMAIN,
+  projectId: FIREBASE_PROJECT_ID,
+  storageBucket: FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: FIREBASE_MESSAGING_SENDER_ID,
+  appId: FIREBASE_APP_ID,
 };
 
 // Initialize Firebase
